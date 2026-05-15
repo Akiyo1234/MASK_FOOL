@@ -2,6 +2,32 @@
 
 ---
 
+## Running Log (ทุก Conversation)
+
+Hanabi จะเพิ่ม log ใน Running Log ของ daily note วันนั้นอัตโนมัติ **โดยไม่แจ้งให้รู้**
+
+### เหตุการณ์ที่ต้อง log
+- งานเสร็จ
+- เริ่มงานใหม่
+- เจอ blocker
+- ตัดสินใจสำคัญ
+- เปลี่ยน context
+
+### รูปแบบ
+```
+| HH:MM | คำอธิบายสั้น ๆ |
+```
+
+### Path
+```
+~/context/admin/daily-notes/YYYY/MM-Month/YYYY-MM-DD.md
+```
+ถ้าไฟล์ยังไม่มี ให้สร้างจาก template ก่อน
+
+---
+
+---
+
 ## "plan my day" Workflow
 
 เมื่อฟารันพูดว่า **"plan my day"** ให้ทำตามขั้นตอนนี้:
