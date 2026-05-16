@@ -42,7 +42,6 @@ context/admin/daily-notes/YYYY/MM-Month/YYYY-MM-DD.md
    context/admin/daily-notes/YYYY/MM-Month/YYYY-MM-DD.md
    ```
    โดยใช้ template ด้านล่าง แล้วกรอก **ตารางวันนี้** จากที่วางแผนไว้ทันที
-6. **Commit + push** ขึ้น GitHub
 
 ### Template ที่ใช้
 
@@ -60,3 +59,24 @@ context/admin/daily-notes/YYYY/MM-Month/YYYY-MM-DD.md
 - ถ้าไฟล์วันนั้นมีอยู่แล้ว → อัปเดต section ตารางวันนี้ อย่า overwrite ทั้งไฟล์
 - สร้างโฟลเดอร์ปี/เดือนถ้ายังไม่มี
 - ชื่อโฟลเดอร์เดือน: `MM-Month` เช่น `05-May`, `06-June`
+
+---
+
+## Inbox (อ่านทุก Conversation)
+
+ฟารันจดไอเดีย/งาน/สิ่งที่ไม่อยากลืม ไว้ที่ [inbox.md](inbox.md)
+
+- **เริ่มคุยทุกครั้ง → อ่าน inbox.md ก่อน** ถ้ามีของใหม่ใต้เส้น ให้หยิบมาคุย/จัดการ
+- จัดการเสร็จแล้ว → ย้ายเข้าที่ที่เหมาะ (daily note / plan) · **ห้ามลบทิ้งเฉย ๆ** ให้ย้ายไป [inbox-archive.md](inbox-archive.md) แทน (ใส่วันที่):
+  - ไอเดีย/ของที่ยังไม่ได้ใช้ → โซน "💡 ไอเดียที่ยังไม่ได้ใช้" (เพื่อหยิบกลับมาได้)
+  - ของที่จัดการจบแล้ว → โซน "✅ จัดการจบแล้ว"
+- ย้ายออกจาก inbox.md ให้เคลียร์ แล้ว log สั้น ๆ ใน Running Log วันนั้น
+- ฟารันแค่พิมพ์ทิ้งไว้ ไม่ต้องสั่ง — Hanabi เก็บกวาดเอง
+
+Path: `context/admin/inbox.md`
+
+---
+
+## Git — ห้าม push เอง
+
+แก้ไฟล์ในเครื่องได้เต็มที่ แต่ **commit/push ขึ้น GitHub ต้องรอฟารันสั่งก่อนเสมอ** ห้ามทำเอง
