@@ -18,13 +18,12 @@ Hanabi จะเพิ่ม log ใน Running Log ของ daily note วั�
 | HH:MM | คำอธิบายสั้น ๆ |
 ```
 
-### Path
+### Path (ในรีโป Mask_fool — sync GitHub อัตโนมัติ)
 ```
-~/context/admin/daily-notes/YYYY/MM-Month/YYYY-MM-DD.md
+context/admin/daily-notes/YYYY/MM-Month/YYYY-MM-DD.md
 ```
+เครื่องฟารัน: `C:\Users\User\Desktop\Mask_fool\context\admin\daily-notes\...`
 ถ้าไฟล์ยังไม่มี ให้สร้างจาก template ก่อน
-
----
 
 ---
 
@@ -38,11 +37,12 @@ Hanabi จะเพิ่ม log ใน Running Log ของ daily note วั�
 2. **จัดตารางร่วมกัน** — เรียงตามช่วงพลังงาน (งานหนัก → บ่าย, งานเบา → เช้า)
 3. **ล็อคตาราง** — ยืนยันกับฟารันก่อน
 4. **อัปเดตปฏิทิน** — (ถ้ามี integration)
-5. **สร้าง daily note** ที่ path:
+5. **สร้าง daily note** ในรีโป Mask_fool ที่ path:
    ```
-   ~/context/admin/daily-notes/YYYY/MM-Month/YYYY-MM-DD.md
+   context/admin/daily-notes/YYYY/MM-Month/YYYY-MM-DD.md
    ```
    โดยใช้ template ด้านล่าง แล้วกรอก **ตารางวันนี้** จากที่วางแผนไว้ทันที
+6. **Commit + push** ขึ้น GitHub
 
 ### Template ที่ใช้
 
